@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         String dollar=dc.getText().toString();
         Double ddollar=Double.parseDouble(dollar);
         Double rs = ddollar * 71.28;
-        String s=dollar+" $ = Rs. "+rs.toString();
+        String s = dollar + " $ = Rs. "+rs.toString();
         Toast.makeText(this, s, Toast.LENGTH_SHORT).show();
     }
 
